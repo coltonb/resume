@@ -33,15 +33,16 @@ body {
   }
 }
 
-@media (max-width: 800px) {
+@media only screen and (max-width: 800px) {
   #paper {
     margin: 0;
     padding: 0;
+    height: 0;
     box-shadow: none;
   }
   body {
     background: none;
-    font-size: 9pt;
+    font-size: 8pt;
   }
 }
 

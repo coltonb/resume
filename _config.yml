@@ -1,0 +1,12 @@
+# Site settings
+title: Colton Blake
+description: >- # this means to ignore newlines until "baseurl:"
+  Colton Blake's Resume.
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://www.coltonb.net" # the base hostname & protocol for your site, e.g. http://example.com
+github_username:  coltonb
+
+# Build settings
+# plugins:
+
+# exclude:
