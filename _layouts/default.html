@@ -2,7 +2,7 @@
 <html>
   <head>
     <title>{{ site.title }}</title>
-    <link rel="icon" href="assets/images/favicon.png" />
+    <link rel="icon" href="/assets/images/favicon.png" />
 
     <meta charset="UTF-8" />
     <meta name="description" content="{{ site.description }}" />
@@ -24,6 +24,11 @@
     <link rel="stylesheet" href="/assets/css/style.css" />
   </head>
   <body>
-    {{ content }}
+    {% include nav.html %}
+    <div id="content-container">
+      <div id="content" class="paper">
+        {{ content }}
+      </div>
+    </div>
   </body>
 </html>
