@@ -24,7 +24,7 @@ a {
 
 nav > a {
   color: var(--text-secondary-color);
-  padding-left: 1em;
+  margin-left: 1em;
   font-size: 1.2em;
 }
 
