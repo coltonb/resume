@@ -24,14 +24,13 @@
 body {
   line-height: 1.5;
   width: 8.5in;
-  max-height: 11in;
   margin: auto;
 }
 
 @media not print {
   body {
-    padding-top: 2em;
-    padding-bottom: 8em;
+    margin-top: 8px;
+    margin-bottom: 100px;
   }
 }
 
@@ -41,12 +40,12 @@ h1 {
 }
 
 h2 {
-  font-size: 1.5em;
+  font-size: 14pt;
   color: var(--accent);
 }
 
 h3 {
-  font-size: 1em;
+  font-size: 11pt;
   color: var(--subtle);
 }
 
