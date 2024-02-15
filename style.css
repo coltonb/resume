@@ -1,7 +1,6 @@
 :root {
   font-family: Inter, sans-serif;
   font-feature-settings: "liga" 1, "calt" 1;
-  font-size: 11pt;
 
   color: #222;
 
@@ -23,14 +22,14 @@
 
 body {
   line-height: 1.5;
+  font-size: 11pt;
   width: 8.5in;
   margin: auto;
 }
 
 @media not print {
   body {
-    margin-top: 8px;
-    margin-bottom: 100px;
+    padding: 0.5in;
   }
 }
 
