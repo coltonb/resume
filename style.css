@@ -21,8 +21,8 @@
 }
 
 body {
+  font-size: 16px;
   line-height: 1.5;
-  font-size: 11pt;
   width: 8.5in;
   margin: auto;
 }
@@ -34,42 +34,35 @@ body {
 }
 
 h1 {
-  font-size: 3em;
+  font-size: 48px;
   color: var(--primary);
 }
 
 h2 {
-  font-size: 14pt;
+  font-size: 18px;
   color: var(--accent);
 }
 
 h3 {
-  font-size: 11pt;
+  font-size: 16px;
   color: var(--subtle);
 }
 
 section > header {
   border-bottom: 1px solid var(--subtle);
   text-transform: uppercase;
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
-  padding-bottom: 0.25em;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  padding-bottom: 4px;
   color: var(--subtle);
 }
 
 .entry {
-  margin-bottom: 1em;
-}
-
-hr {
-  border: none;
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
-  border-top: 1px solid var(--accent);
+  margin-bottom: 12px;
 }
 
 header {
-  margin-bottom: 1em;
+  margin-bottom: 16px;
 }
 
 .row {
@@ -96,5 +89,5 @@ h3 {
 }
 
 .material-icons {
-  font-size: 1em;
+  font-size: inherit;
 }
